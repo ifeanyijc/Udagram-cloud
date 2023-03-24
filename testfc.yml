@@ -1,0 +1,26 @@
+---
+Resources:
+  VPCUbah:
+    Type: "AWS::EC2::VPC"
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsHostnames: "true"
+      Tags:
+        - Key: Name
+          Value: myfirstttestvpc
+
+
+# Description: > 
+# Carlos Rivas / Udacity - This template deploys a VPC
+
+# Resources:
+#   UdacityVPC:
+#     Type: AWS::EC2::VPC
+#     Properties: 
+#       CidrBlock: 10.0.0.0/16
+#       EnableDnsHostnames: 'true'
+#     Tags:
+#       - Key: name
+#         Value: myfirsttestvpc
+
+
